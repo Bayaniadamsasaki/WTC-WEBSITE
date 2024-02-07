@@ -295,6 +295,7 @@ main {
     background-color: #102A19;
     background-image: url('../assets/images/1000_F_220166524_QkAcdgDbgEZ9dPg3fVt8M0QL5yUgliJ1-removebg-preview 1.svg');
     background-size: cover;
+    opacity: 0.5;
 }
 
 .card__article:hover path {
