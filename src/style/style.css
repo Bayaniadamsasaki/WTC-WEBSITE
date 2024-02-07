@@ -293,7 +293,7 @@ main {
     transition: 0.5s;
     background: transparent;
     background-color: #102A19;
-    background-image: url('../assets/images/1000_F_220166524_QkAcdgDbgEZ9dPg3fVt8M0QL5yUgliJ1-removebg-preview 1.svg');
+    /* background-image: url('../assets/images/1000_F_220166524_QkAcdgDbgEZ9dPg3fVt8M0QL5yUgliJ1-removebg-preview 1.svg'); */
     background-size: cover;
     opacity: 0.5;
 }
