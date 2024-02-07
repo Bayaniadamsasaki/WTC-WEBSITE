@@ -79,7 +79,8 @@ a {
 
 .button button:hover {
     box-shadow: 4px 4px 0 0 #00ffff;
-    transform: translate(-5px, -5px);
+    transform: translate(-10px, -10px);
+    transition: 0.5s;
 }
 
 .header-content {
@@ -139,7 +140,7 @@ a {
     background: none;
     border: 2px solid #22C55E;
     background: none;
-    transition: background-color 0.3s, color 0.3s; 
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .masuk:hover {
@@ -197,7 +198,7 @@ img {
     margin-top: -5px;
 }
 
-section {
+main {
     max-width: 100%;
     max-height: 100%;
     left: 0;
@@ -234,62 +235,69 @@ main {
     line-height: 130%;
 }
 
+/* <===============> */
+
 /* swipper */
+
 .container-card{
-  justify-content: center;
-  align-items: center;
-  display: flex;
+    display: flex;
+    margin: 0 47px;
+    justify-content: center;
+    gap: 30px;
 }
-.card__container {
-  padding-block: 1rem;
-}
-.card__content {
-    margin-inline: 1.75rem;
-    border-radius: 1.25rem;
-    overflow: hidden;
-  }
+
 .card__data {
-    padding: 1.5rem 2rem;
+  padding: 1.5rem 2rem;
   text-align: center;
-  position: relative;
-  z-index: 10;
-  }
-.card__content {
-    margin-inline: 1.75rem;
+}
+
+.card__article {
+    padding: 40px 0px 50px 0px;
     border-radius: 1.25rem;
-    overflow: hidden;
-  }
-  .card__article {
-    width: 100%; 
-    border-radius: 1.25rem;
-    overflow: hidden;
-    border: 1px solid white;
-    margin-bottom: 1.5rem;
-  }
-  .card__image {
+    border: 2px solid #A5A5A5;
+}
+
+.card__image {
     position: relative;
     padding-top: 1.5rem;
-    margin-bottom: -.75rem;
+    margin-bottom: 51px;
     text-align: center;
     margin: 0 auto 1rem;
-  }
+}
+
 .card__img{
     border-radius: 50%;
     width: 80px;
     height: 80px;
     margin: 0 auto;
-  position: relative;
-  z-index: 5;
 }
+
 .card__name{
     color: #22C55E;
-    margin-bottom: .75rem;
+    font-size: 22px;
+    margin-bottom: 21px;
 }
+
 .card__description{
     color: white;
-    font-weight: 500;
-  margin-bottom: 1.75rem;
+    font-size: 18px;
+    margin-bottom: 45px;
 }
+
 .card__button{
     color: #22C55E;
 }
+
+.card__article:hover{
+    scale: 1.1;
+    transition: 0.5s;
+    background: transparent;
+    background-color: #102A19;
+    background-image: url('../assets/images/1000_F_220166524_QkAcdgDbgEZ9dPg3fVt8M0QL5yUgliJ1-removebg-preview 1.svg');
+    background-size: cover;
+}
+
+.card__article:hover path {
+    fill: #161f19;
+}
+
