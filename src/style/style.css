@@ -234,4 +234,62 @@ main {
     line-height: 130%;
 }
 
-
+/* swipper */
+.container-card{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.card__container {
+  padding-block: 1rem;
+}
+.card__content {
+    margin-inline: 1.75rem;
+    border-radius: 1.25rem;
+    overflow: hidden;
+  }
+.card__data {
+    padding: 1.5rem 2rem;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+  }
+.card__content {
+    margin-inline: 1.75rem;
+    border-radius: 1.25rem;
+    overflow: hidden;
+  }
+  .card__article {
+    width: 100%; 
+    border-radius: 1.25rem;
+    overflow: hidden;
+    border: 1px solid white;
+    margin-bottom: 1.5rem;
+  }
+  .card__image {
+    position: relative;
+    padding-top: 1.5rem;
+    margin-bottom: -.75rem;
+    text-align: center;
+    margin: 0 auto 1rem;
+  }
+.card__img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+  position: relative;
+  z-index: 5;
+}
+.card__name{
+    color: #22C55E;
+    margin-bottom: .75rem;
+}
+.card__description{
+    color: white;
+    font-weight: 500;
+  margin-bottom: 1.75rem;
+}
+.card__button{
+    color: #22C55E;
+}
