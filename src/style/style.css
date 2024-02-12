@@ -239,6 +239,20 @@ main {
 
 /* swipper */
 
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  .carousel-wrapper {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  .card__article {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
 .container-card{
     display: flex;
     margin: 0 47px;
